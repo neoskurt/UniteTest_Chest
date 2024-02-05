@@ -1,4 +1,4 @@
-const { isValidBishopMove } = require('./bishop');
+const { isValidBishopMove } = require('../Pieces/bishop');
 
 test('Déplacement valide d\'un fou', () => {
   
