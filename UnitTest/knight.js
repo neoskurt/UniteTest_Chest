@@ -1,5 +1,4 @@
 function isValidKnightMove(initialPosition, finalPosition) {
-    console.log( finalPosition.row , initialPosition.row)
 
     const rowDiff = Math.abs(finalPosition.row - initialPosition.row);
     const colDiff = Math.abs(finalPosition.col - initialPosition.col);
