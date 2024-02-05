@@ -1,5 +1,3 @@
-
-// king.js
 function isValidKingMove(board, initialPosition, finalPosition) {
   // Vérifie si le déplacement est d'une case à gauche, à droite, en haut, en bas ou en diagonale
   if (
