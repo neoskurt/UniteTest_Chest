@@ -31,14 +31,15 @@ test('Déplacement valide d\'un pion vers 2 case en haut', () => {
 });
 
 
+
 test('Déplacement valide d\'un cavalier', () => {
 
-  const initialPosition = { row: 3, col: 3 }; 
-  const validFinalPosition1 = { row: 4, col: 2 }; 
-  const validFinalPosition2 = { row: 2, col: 4 };
+  const initialPosition = { row: 4, col: 4 }; 
+  const validFinalPosition1 = { row: 2, col: 5}; 
+  const validFinalPosition2 = { row: 6, col: 3 };
 
-  const invalidFinalPosition1 = { row: 2, col: 2 }; 
-  const invalidFinalPosition2 = { row: 4, col: 4 }; 
+  const invalidFinalPosition1 = { row: 5, col: 3 }; 
+  const invalidFinalPosition2 = { row: 4, col: 2 }; 
 
   expect(isValidKnightMove(initialPosition, validFinalPosition1)).toBe(true);
   expect(isValidKnightMove(initialPosition, validFinalPosition2)).toBe(true);
