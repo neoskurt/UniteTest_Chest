@@ -4,5 +4,9 @@
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+"jest": {
+  "verbose": true
+}
+
 }
