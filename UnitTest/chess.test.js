@@ -1,14 +1,8 @@
 // chess.test.js
 const { createEmptyChessBoard, movePiece } = require('./chess');
 const { isValidPawnMove } = require('./pawn');
-<<<<<<< HEAD
 const { isValidKnightMove } = require('./knight');
 
-
-
-=======
-
->>>>>>> 6e6a8eb7919ef79e5f795bef478d4121196da01b
 test('Déplacement valide d\'un pion vers 1 case en haut', () => {
     const board = createEmptyChessBoard();
     const pawn = { type: 'pawn', color: 'white' };
@@ -35,7 +29,6 @@ test('Déplacement valide d\'un pion vers 2 case en haut', () => {
     console.log('isValidPawnMove :', validPawnMove);
     expect(validPawnMove).toBe(true);
 });
-<<<<<<< HEAD
 
 
 test('Déplacement valide d\'un cavalier', () => {
@@ -54,5 +47,4 @@ test('Déplacement valide d\'un cavalier', () => {
   expect(isValidKnightMove(initialPosition, invalidFinalPosition2)).toBe(false);
 });
 
-=======
->>>>>>> 6e6a8eb7919ef79e5f795bef478d4121196da01b
+
